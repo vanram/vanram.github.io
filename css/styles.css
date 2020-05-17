@@ -1,0 +1,154 @@
+/*Colors:
+  Heading: #31393C
+  Projects: #724CF9
+  Work Experience: #F0DD4D
+  Education: #EA3546
+  Contact: #F3FCF0
+*/
+
+/* Global styles
+-----------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  color: #343434;
+  /* font-weight: bold; */
+  font-family: 'Montserrat', sans-serif;
+  /* text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; */
+  margin: 0;
+  padding: 0;
+  line-height: 1.25;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #003049;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 900px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* .indent {
+  margin-left: 15px;
+} */
+h1 {
+  margin: 10px;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 3px 3px 0px #724CF9, 5px 5px 0px #EA3546;
+}
+h2 {
+  margin: 0;
+  font-size: 32px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h3 {
+  margin-bottom: 0;
+}
+.item-info h3 + p {
+  font-style: italic;
+}
+.item-info h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 2px dashed #F3FCF0;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+/* Profile
+-----------------------------------------*/
+header {
+  background-color: #31393C;
+  color: #F9F9F9;
+}
+header h2 {
+  font-size: 24px;
+}
+
+/* Projects
+-----------------------------------------*/
+.projects {
+  background-color: #724CF9;
+  color: #F9F9F9;
+}
+.projects a {
+  color: #F9F9F9;
+}
+.projects h2 {
+  text-shadow: 2px 2px 0 #EA3546;
+}
+
+/* Work Experience
+-----------------------------------------*/
+.work-experience {
+  background-color: #F0DD4D;
+}
+.work-experience h2 {
+  text-shadow: 2px 2px 0 #F9F9F9;
+}
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+/* Education
+-----------------------------------------*/
+.education {
+  background-color: #EA3546;
+  color: #F9F9F9;
+}
+.education section {
+  float: left;
+  margin-right: 100px;
+}
+.education img {
+  float: left;
+}
+.education h2 {
+  text-shadow: 2px 2px 0 #343434;
+}
+
+/* Contact Info
+-----------------------------------------*/
+footer {
+  background-color: #F3FCF0;
+  padding-bottom: 10px;
+}
+footer li {
+  margin: 15px;
+}
+footer h2 {
+  text-shadow: 2px 2px 0 #F0DD4D;
+  text-align: center;
+}
+.contact-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a {
+  padding: 10px;
+}
