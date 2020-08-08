@@ -99,6 +99,17 @@ header h2 {
 .projects h2 {
   text-shadow: 2px 2px 0 #EA3546;
 }
+.projects  section {
+  border-bottom: 2px dashed #FE6E7A;
+  padding: 20px 0;
+}
+.projects  section:first-of-type {
+  padding: 0px 0px 20px 0px;
+}
+.projects  section:last-of-type {
+  border-bottom: none;
+  padding: 20px 0px 0px 0px;
+}
 
 /* Work Experience
 -----------------------------------------*/
